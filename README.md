@@ -33,24 +33,24 @@ cd fraud-detection-system
 pip install -r requirements.txt
 ```
 
-##🚀 Usage
+## 🚀 Usage
+
 #📦 Run full ML pipeline:
+
  ```bash
  python main.py
  ```
 
-##🧠 Launch Streamlit prediction app:
+## 🧠 Launch Streamlit prediction app:
+
 ```bash
 streamlit run app.py
 ```
 
-##🧰 Tech Stack
+## 🧰 Tech Stack
+
 -Python
-
 -pandas, scikit-learn, xgboost, lightgbm
-
 -matplotlib, seaborn
-
 -Streamlit for dashboard
-
 -joblib for model serialization
