@@ -2,7 +2,7 @@
 
 A machine learning system that detects whether a financial transaction is fraudulent or legitimate using behavioral features and time-series analysis.
 
----
+
 
 ## 📝 Description
 
@@ -11,16 +11,8 @@ It combines behavioral feature engineering, machine learning, and a Streamlit da
 
 Use case: early fraud detection in banking/fintech systems.
 
----
 
-## 📺 Demo
 
-<img src="screenshots/app_ui.png" width="600"/>
-
-> **Live Prediction Dashboard:**  
-> `streamlit run app.py` (locally)
-
----
 
 ## ✨ Features
 
@@ -31,7 +23,7 @@ Use case: early fraud detection in banking/fintech systems.
 - Real-time fraud prediction via web app
 - Visual analysis: class balance, feature distribution, correlations
 
----
+
 
 ## ⚙️ Installation
 
@@ -40,10 +32,25 @@ git clone https://github.com/your-username/fraud-detection-system.git
 cd fraud-detection-system
 pip install -r requirements.txt
 ```
+
 ##🚀 Usage
 #📦 Run full ML pipeline:
+ ```bash
  python main.py
- 
-##🧠 Launch Streamlit prediction app:
-streamlit run app.py
+ ```
 
+##🧠 Launch Streamlit prediction app:
+```bash
+streamlit run app.py
+```
+
+##🧰 Tech Stack
+-Python
+
+-pandas, scikit-learn, xgboost, lightgbm
+
+-matplotlib, seaborn
+
+-Streamlit for dashboard
+
+-joblib for model serialization
