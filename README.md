@@ -39,8 +39,6 @@ pip install -r requirements.txt
 
 ### 📦 Run the full ML pipeline in notebook
 
-```bash
-```
 
 ### 🧠 Launch the Streamlit prediction app:
 
