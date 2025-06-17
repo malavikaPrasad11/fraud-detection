@@ -6,3 +6,5 @@ seaborn
 xgboost
 joblib
 streamlit
+lightgbm
+tqdm
